@@ -1,5 +1,5 @@
 import * as React from 'react';
-import CheckBoxDemo from '@pages/CheckBoxDemo';
+import CheckBoxDemo from '@examples/CheckBoxDemo';
 
 const App = () => {
     return (

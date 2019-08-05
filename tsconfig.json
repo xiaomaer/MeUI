@@ -18,7 +18,7 @@
         "lib": ["dom", "esnext"],
         "paths": {
             "@packages/*": ["packages/*"],
-            "@pages/*": ["src/pages/*"]
+            "@examples/*": ["examples/*"]
         }
     },
     "include": ["src"],

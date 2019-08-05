@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const os = require('os');
 
 const __ROOT = path.resolve(__dirname, '../'); // 根目录;
-const __SRC = path.resolve(__ROOT, 'src');
+const __SRC = path.resolve(__ROOT, 'examples');
 
 
 const happyThreadPool = HappyPack.ThreadPool({
@@ -15,13 +15,13 @@ const happyThreadPool = HappyPack.ThreadPool({
 
 module.exports = {
     entry: {
-        index: './src/pages/index'
+        index: './examples/index'
     },
     resolve: {
         extensions: ['.js', '.ts', '.tsx', '.jsx'],
         alias: {
             '@packages': path.resolve(__ROOT, 'packages/'),
-            '@pages': path.resolve(__ROOT, 'src/pages/'),
+            '@examples': path.resolve(__ROOT, 'examples/'),
         },
         modules: [__SRC, 'node_modules']
     },
