@@ -3,3 +3,4 @@
 /test/
 /node_modules/
 /dll/
+__tests__
