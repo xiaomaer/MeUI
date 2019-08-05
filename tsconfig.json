@@ -17,11 +17,8 @@
         "allowSyntheticDefaultImports": true,
         "lib": ["dom", "esnext"],
         "paths": {
-            "@api/*": ["src/api/*"],
-            "@components/*": ["src/components/*"],
-            "@constants/*": ["src/constants/*"],
-            "@pages/*": ["src/pages/*"],
-            "@utils/*": ["src/utils/*"]
+            "@packages/*": ["packages/*"],
+            "@pages/*": ["src/pages/*"]
         }
     },
     "include": ["src"],

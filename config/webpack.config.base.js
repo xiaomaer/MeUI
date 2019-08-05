@@ -1,4 +1,3 @@
-const webpack = require('webpack');
 const path = require('path');
 const HappyPack = require('happypack');
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
@@ -8,6 +7,7 @@ const os = require('os');
 
 const __ROOT = path.resolve(__dirname, '../'); // 根目录;
 const __SRC = path.resolve(__ROOT, 'src');
+
 
 const happyThreadPool = HappyPack.ThreadPool({
     size: os.cpus().length
@@ -20,11 +20,8 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.ts', '.tsx', '.jsx'],
         alias: {
-            '@api': path.resolve(__ROOT, 'src/api/'),
-            '@components': path.resolve(__ROOT, 'src/components/'),
-            '@constants': path.resolve(__ROOT, 'src/constants/'),
+            '@packages': path.resolve(__ROOT, 'packages/'),
             '@pages': path.resolve(__ROOT, 'src/pages/'),
-            '@utils': path.resolve(__ROOT, 'src/utils/')
         },
         modules: [__SRC, 'node_modules']
     },
@@ -34,12 +31,13 @@ module.exports = {
                 test: /\.(ts|js)x?$/,
                 loader: 'eslint-loader',
                 enforce: 'pre',
-                include: __SRC
+                // include: __SRC,
+                exclude: /node_modules/
             },
             {
                 test: /\.(ts|js)x?$/,
                 use: 'happypack/loader?id=babel',
-                include: __SRC,
+                // include: __SRC,
                 exclude: /node_modules/
             },
             {
