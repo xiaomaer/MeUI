@@ -1,0 +1,14 @@
+sudo: required
+language: node_js
+node_js:
+    - '10'
+# Travis-CI Caching
+cache:
+    directories:
+        - node_modules
+# 只检测 master 分支的 push
+branches:
+    only:
+        - master
+script:
+    - npm test
