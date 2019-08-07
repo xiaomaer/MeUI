@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Checkbox from '@packages/CheckBox/index';
+import Checkbox from '@packages/CheckBox/src/index';
 
 const CheckboxGroup = Checkbox.Group;
 

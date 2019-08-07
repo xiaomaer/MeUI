@@ -1,5 +1,5 @@
 import React from 'react';
-import Checkbox from '../index';
+import Checkbox from '../src/index';
 
 // 测试组件的渲染
 test('render checkbox', () => {

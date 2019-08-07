@@ -21,6 +21,6 @@
             "@examples/*": ["examples/*"]
         }
     },
-    "include": ["src"],
+    "include": ["packages", "examples"],
     "exclude": ["node_modules", "dist"]
 }
