@@ -14,7 +14,9 @@
         "commit": "git-cz",
         "test": "cross-env BABEL_ENV=test jest",
         "test:watch": "cross-env BABEL_ENV=test jest --watch",
-        "test:coverage": "cross-env BABEL_ENV=test jest --coverage"
+        "test:coverage": "cross-env BABEL_ENV=test jest --coverage",
+        "build:packages": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.test.js --extensions \".ts,.tsx\"",
+        "publish": "lerna publish"
     },
     "husky": {
         "hooks": {
@@ -49,6 +51,7 @@
         "react-dom": "^16.3.1"
     },
     "devDependencies": {
+        "@babel/cli": "^7.5.5",
         "@babel/core": "^7.0.0",
         "@babel/plugin-proposal-class-properties": "^7.4.0",
         "@babel/plugin-proposal-decorators": "^7.4.0",

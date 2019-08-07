@@ -11,3 +11,4 @@ package-lock.json
 /config/
 /node_modules/
 /dll/
+lib
