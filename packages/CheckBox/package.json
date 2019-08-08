@@ -25,5 +25,9 @@
     },
     "bugs": {
         "url": "https://github.com/xiaomaer/MeUI/issues"
+    },
+    "dependencies": {
+        "@types/react": "^16.8.25",
+        "react": "^16.8.6"
     }
 }
