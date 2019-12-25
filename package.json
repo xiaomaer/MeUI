@@ -1,12 +1,9 @@
 {
-    "name": "root",
+    "name": "meui",
     "private": true,
     "description": "react pc组件库",
     "scripts": {
         "start": "webpack-dev-server --progress --color --config config/webpack.config.dev.js",
-        "dev": "webpack --config config/webpack.config.dev.js",
-        "build": "webpack --config config/webpack.config.prod.js",
-        "analyze": "NODE_ANALYZE=analyze webpack --config config/webpack.config.prod.js",
         "lint:es": "eslint --fix --ext .ts,tsx,js,jsx src",
         "lint:style": "stylelint --fix **/*.{css,sass,scss}",
         "format:es": "prettier --write **/*.{ts,tsx,js,jsx}",
@@ -15,8 +12,10 @@
         "test": "cross-env BABEL_ENV=test jest",
         "test:watch": "cross-env BABEL_ENV=test jest --watch",
         "test:coverage": "cross-env BABEL_ENV=test jest --coverage",
+        "clean": "rimraf lib && rimraf packages/*/lib",
         "build:packages": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.test.js --extensions \".ts,.tsx\"",
-        "publish": "lerna publish"
+        "publish": "lerna publish",
+        "build": "webpack --config config/webpack.config.component.js"
     },
     "husky": {
         "hooks": {
@@ -106,6 +105,7 @@
         "prettier": "^1.17.0",
         "progress-bar-webpack-plugin": "^1.12.1",
         "react-test-renderer": "^16.8.6",
+        "rimraf": "^2.6.3",
         "sass-loader": "^7.1.0",
         "speed-measure-webpack-plugin": "^1.3.1",
         "style-loader": "^0.23.1",
