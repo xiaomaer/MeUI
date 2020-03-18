@@ -1,26 +1,18 @@
 {
-    "compilerOptions": {
-        "strict": true,
-        "allowJs": true,
-        "target": "es2017",
-        "module": "commonjs",
-        "removeComments": true,
-        "preserveConstEnums": true,
-        "moduleResolution": "node",
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "experimentalDecorators": true,
-        "importHelpers": true,
-        "outDir": "dist",
-        "baseUrl": ".",
-        "jsx": "react",
-        "allowSyntheticDefaultImports": true,
-        "lib": ["dom", "esnext"],
-        "paths": {
-            "@packages/*": ["packages/*"],
-            "@examples/*": ["examples/*"]
-        }
-    },
-    "include": ["packages", "examples"],
-    "exclude": ["node_modules", "dist"]
+  "compilerOptions": {
+    "target": "es2017",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "declaration": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["dom", "esnext"]
+  },
+  "include": ["packages", "src"],
+  "exclude": ["node_modules", "lib", "es", "test"]
 }

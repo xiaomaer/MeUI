@@ -8,8 +8,8 @@
 *.woff
 
 # 测试和打包目录
-/test/
-/dist/
-/config/
-/node_modules/
-/types/
+test
+dist
+node_modules
+types
+coverage
