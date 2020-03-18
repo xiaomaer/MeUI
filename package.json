@@ -1,6 +1,6 @@
 {
-    "name": "meui",
-    "version": "1.0.0",
+    "name": "xm-meui",
+    "version": "1.0.1",
     "description": "react pc组件库",
     "main": "lib/index.js",
     "scripts": {
