@@ -8,13 +8,14 @@ module.exports = {
   },
   rules: {
     // 这里填入你的项目需要的个性化配置
+    'import/no-extraneous-dependencies': false,
   },
   settings: {
     react: {
-      version: "latest" // React version. "detect" automatically picks the version you have installed.
+      version: 'latest', // React version. "detect" automatically picks the version you have installed.
       // You can also use `16.0`, `16.3`, etc, if you want to override the detected value.
       // default to latest and warns if missing
       // It will default to "detect" in the future
-    }
-  }
+    },
+  },
 };
