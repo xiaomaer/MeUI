@@ -6,6 +6,9 @@ const Components = require('../components.json');
 
 module.exports = merge(baseWebpackConfig, {
     entry: Components,
+    externals : {
+        react: 'react'
+    },
     output: {
         path: path.resolve(process.cwd(), './packages'),
         filename: '[name]/lib/index.js',
