@@ -1,4 +1,6 @@
 {
+  "name": "react-meui",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "commit": "git-cz",
@@ -8,7 +10,7 @@
     "build": "father build",
     "test": "father test",
     "test:coverage": "father test --coverage",
-    "publish": "lerna publish",
+    "publish": "npm run build&&lerna publish",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean"
   },

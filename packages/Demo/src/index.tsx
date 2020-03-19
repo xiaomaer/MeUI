@@ -8,4 +8,3 @@ export default Demo;
 
 export * from './interface';
 
-// log test
