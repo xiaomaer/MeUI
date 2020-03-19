@@ -18,3 +18,7 @@ Lerna
 father
 ```
 
+
+### todo
+* 文档部署到（https://xiaomaer.github.io/MeUI/），访问不正常。
+* 自动化构建、发包、部署文档
