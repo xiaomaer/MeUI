@@ -6,9 +6,11 @@ package-lock.json
 
 .cache
 
-/test/
-/dist/
-/config/
-/node_modules/
-/dll/
+test
+dist
+node_modules
+dll
+coverage
+types
 lib
+es

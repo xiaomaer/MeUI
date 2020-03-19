@@ -1,7 +1,7 @@
 {
-  "name": "@xiaomaer/checkbox",
-  "version": "1.0.7",
-  "description": "复选框",
+  "name": "@xiaomaer/demo",
+  "version": "1.0.6",
+  "description": "测试",
   "author": "马美英 <mameiying@meituan.com>",
   "homepage": "https://github.com/xiaomaer/MeUI#readme",
   "license": "ISC",

@@ -1,21 +1,21 @@
 {
-  "name": "@xiaomaer/checkbox",
-  "version": "1.0.7",
-  "description": "复选框",
-  "author": "马美英 <mameiying@meituan.com>",
-  "homepage": "https://github.com/xiaomaer/MeUI#readme",
-  "license": "ISC",
+  "name": "xm-meui",
+  "version": "1.0.3",
+  "description": "react组件库所有组件打成一个包",
   "main": "lib/index.js",
   "module": "es/index.js",
-  "typings": "lib/index.d.ts",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
+  "typings": "types/index.d.ts",
   "files": [
     "lib",
     "es"
   ],
+  "author": "马美英 <mameiying@meituan.com>",
+  "homepage": "https://github.com/xiaomaer/MeUI#readme",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -28,6 +28,10 @@
   },
   "bugs": {
     "url": "https://github.com/xiaomaer/MeUI/issues"
+  },
+  "dependencies": {
+    "@xiaomaer/checkbox": "^1.0.7",
+    "@xiaomaer/demo": "^1.0.6"
   },
   "gitHead": "393122201fa761f5850688a2cbff8b66b0dac864"
 }
