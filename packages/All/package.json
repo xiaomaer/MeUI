@@ -1,0 +1,36 @@
+{
+  "name": "meui",
+  "private": true,
+  "description": "react组件库所有组件打成一个包",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "types/index.d.ts",
+  "files": [
+    "lib",
+    "es"
+  ],
+  "author": "马美英 <mameiying@meituan.com>",
+  "homepage": "https://github.com/xiaomaer/MeUI#readme",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaomaer/MeUI.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/xiaomaer/MeUI/issues"
+  },
+  "dependencies": {
+    "@xiaomaer/checkbox": "^1.0.3",
+    "@xiaomaer/demo": "^1.0.3"
+  }
+}

@@ -5,3 +5,4 @@ es
 package-lock.json
 .docz
 .doc
+lerna-debug.log

@@ -1,15 +1,5 @@
 {
-  "name": "meui",
   "private": true,
-  "description": "react pc组件库",
-  "main": "lib/index.js",
-  "module": "es/index.js",
-  "typings": "types/index.d.ts",
-  "files": [
-    "dist",
-    "lib",
-    "es"
-  ],
   "scripts": {
     "commit": "git-cz",
     "start": "father doc dev",
@@ -18,7 +8,9 @@
     "build": "father build",
     "test": "father test",
     "test:coverage": "father test --coverage",
-    "publish": "lerna publish"
+    "publish": "lerna publish",
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean"
   },
   "husky": {
     "hooks": {
@@ -26,10 +18,10 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx,js,jsx}": [
+    "packages/**/*.{ts,tsx,js,jsx}": [
       "eslint"
     ],
-    "src/**/*.{css,scss,less}": [
+    "packages/**/*.{css,scss,less}": [
       "stylelint"
     ]
   },

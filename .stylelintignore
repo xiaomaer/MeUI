@@ -10,6 +10,8 @@
 # 测试和打包目录
 test
 dist
+lib
+es
 node_modules
 types
 coverage
