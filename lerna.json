@@ -15,7 +15,7 @@
   },
   "command": {
     "publish": {
-      "message": "chore(release): publish %v"
+      "message": "chore(release): publish"
     },
     "version": {
       "conventionalCommits": true,

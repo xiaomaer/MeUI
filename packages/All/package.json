@@ -1,6 +1,6 @@
 {
   "name": "meui",
-  "private": true,
+  "version": "1.0.0",
   "description": "react组件库所有组件打成一个包",
   "main": "lib/index.js",
   "module": "es/index.js",
