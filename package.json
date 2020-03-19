@@ -10,7 +10,7 @@
     "build": "father build",
     "test": "father test",
     "test:coverage": "father test --coverage",
-    "publish": "npm run build&&lerna publish",
+    "publish": "lerna publish",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean"
   },

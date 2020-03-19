@@ -1,15 +1,16 @@
 sudo: required
 language: node_js
 node_js:
-    - '10'
+  - '10'
 # Travis-CI Caching
 cache:
-    directories:
-        - node_modules
+  directories:
+    - node_modules
 # 只检测 master 分支的 push
 branches:
-    only:
-        - master
+  only:
+    - master
 script:
-    - npm run test
-    - npm run build
+  - npm run test
+  - npm run build
+  - npm run publish
