@@ -1,6 +1,6 @@
 {
   "name": "meui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react组件库所有组件打成一个包",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -30,7 +30,7 @@
     "url": "https://github.com/xiaomaer/MeUI/issues"
   },
   "dependencies": {
-    "@xiaomaer/checkbox": "^1.0.3",
-    "@xiaomaer/demo": "^1.0.3"
+    "@xiaomaer/checkbox": "^1.0.5",
+    "@xiaomaer/demo": "^1.0.4"
   }
 }
