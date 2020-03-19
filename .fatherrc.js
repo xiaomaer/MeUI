@@ -8,6 +8,6 @@ export default {
   doc: {
     title: 'MEUI',
     themeConfig: { mode: 'light' },
-    base: '/',
+    base: '/MeUI',
   },
 };
