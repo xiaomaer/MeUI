@@ -1,9 +1,12 @@
 {
-  "vendors.css": "/meui/static/css/vendors.8a299423fddfe0be69c0.css",
-  "vendors.js": "/meui/static/js/vendors.d9f24cc8.js",
-  "app.js": "/meui/static/js/app.8a299423fddfe0be69c0.js",
-  "doc-home.js": "/meui/static/js/doc-home.388ab0f9.js",
-  "packages-check-box-index.css": "/meui/static/css/packages-check-box-index.8a299423fddfe0be69c0.css",
-  "packages-check-box-index.js": "/meui/static/js/packages-check-box-index.3ae3854b.js",
-  "index.html": "/meui/index.html"
+  "vendors.css": "/static/css/vendors.0db36cc5159e96b128d4.css",
+  "vendors.js": "/static/js/vendors.524b0eff.js",
+  "app.js": "/static/js/app.0db36cc5159e96b128d4.js",
+  "doc-home.js": "/static/js/doc-home.cf6d6827.js",
+  "packages-all-index.css": "/static/css/packages-all-index.0db36cc5159e96b128d4.css",
+  "packages-all-index.js": "/static/js/packages-all-index.23ac9ca0.js",
+  "packages-check-box-index.css": "/static/css/packages-check-box-index.0db36cc5159e96b128d4.css",
+  "packages-check-box-index.js": "/static/js/packages-check-box-index.2b693462.js",
+  "packages-demo-index.js": "/static/js/packages-demo-index.fa41cc75.js",
+  "index.html": "/index.html"
 }
