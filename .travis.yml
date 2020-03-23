@@ -3,18 +3,17 @@ node_js:
   - '10'
 # Travis-CI Caching
 cache:
+  yarn:true
   directories:
     - node_modules
-install: yarn
+install:
+  - npm run bootstrap
 # 只检测 master 分支的 push
 branches:
   only:
     - master
 script:
   - npm run test
-  - npm run build
-  - npm run build:doc
-  - npm run deploy
 before_deploy:
   - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
 deploy:
@@ -22,3 +21,7 @@ deploy:
   script: 'npm run publish'
   on:
     tags: true
+after_deploy:
+  - npm run build
+  - npm run build:doc
+  - npm run deploy    
