@@ -1,24 +1,34 @@
-# React PC组件库
+# React 组件库
+基于lerna的monorepo react组件库脚手架
 
-### 技术栈
+## 技术栈
 ```
 React 
 TypeScript
 less
 ```
 
-### 多包管理
+## 单元测试
+```
+jest
+enzyme
+```
+
+## 多包管理
 ```
 Lerna
 ```
 
-
-### 打包
+## 打包
 ```
 father
 ```
+
 ## 文档
-https://xiaomaer.github.io/MeUI/
+```
+docz
+```
+部署后访问地址：https://yourname.github.io/yourrepo/，如：https://xiaomaer.github.io/MeUI/
 
 ### todo
 * 自动化构建、发包、部署文档

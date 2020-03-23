@@ -13,6 +13,6 @@ branches:
 script:
   - npm run test
   - npm run build
-  - npm run publish
   - npm run build:doc
   - npm run deploy
+  - npm run publish
