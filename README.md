@@ -31,4 +31,4 @@ docz
 部署后访问地址：https://yourname.github.io/yourrepo/，如：https://xiaomaer.github.io/MeUI/
 
 ### todo
-* 自动化构建、发包、部署文档
+* 发包
