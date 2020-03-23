@@ -3,15 +3,15 @@ node_js:
   - '10'
 # Travis-CI Caching
 cache:
-  yarn:true
   directories:
     - node_modules
-install:
-  - npm run bootstrap
 # 只检测 master 分支的 push
 branches:
   only:
     - master
+
+install:
+  - npm run bootstrap
 script:
   - npm run test
   - npm run build
@@ -24,4 +24,4 @@ deploy:
     tags: true
 after_deploy:
   - npm run build:doc
-  - npm run deploy    
+  - npm run deploy
