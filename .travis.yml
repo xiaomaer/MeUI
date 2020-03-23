@@ -6,6 +6,8 @@ node_js:
 cache:
   directories:
     - node_modules
+
+install: yarn
 # 只检测 master 分支的 push
 branches:
   only:
@@ -14,5 +16,13 @@ script:
   - npm run test
   - npm run build
   - npm run build:doc
+deploy:
+  provider: npm
+  email: '$NPM_EMAIL'
+  api_key: '$NPM_TOKEN'
+  skip_cleanup: true
+  on:
+    tags: true
+after_deploy::
   - npm run deploy
   - npm run publish
