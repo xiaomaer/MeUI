@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.5](https://github.com/xiaomaer/MeUI/compare/xm-meui@1.0.4...xm-meui@1.0.5) (2020-03-23)
+
+
+### Bug Fixes
+
+* ci ([79c28a6](https://github.com/xiaomaer/MeUI/commit/79c28a683e513efd358b451cdd8bbc01a6067d65))
+
+
+
+
+
 ## [1.0.4](https://github.com/xiaomaer/MeUI/compare/xm-meui@1.0.3...xm-meui@1.0.4) (2020-03-23)
 
 **Note:** Version bump only for package xm-meui
