@@ -5,5 +5,3 @@ import './index.less';
 CheckBox.Group = CheckboxGroup;
 export default CheckBox;
 export { ICheckboxProps, ICheckboxGroupProps };
-
-// ci

@@ -8,5 +8,3 @@ import { ITestProps } from './interface';
 export default function Test(props: ITestProps) {
   return <div className="test">{props.name}</div>;
 }
-
-// ci
