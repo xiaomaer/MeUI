@@ -31,4 +31,4 @@ docz
 部署后访问地址：https://yourname.github.io/yourrepo/，如：https://xiaomaer.github.io/MeUI/
 
 ### todo
-* 发包
+* 自动发包，npm run build失败，All里面引用的包找不到。
