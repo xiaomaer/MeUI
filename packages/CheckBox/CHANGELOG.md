@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.10](https://github.com/xiaomaer/MeUI/compare/@xiaomaer/checkbox@1.0.9...@xiaomaer/checkbox@1.0.10) (2020-03-27)
+
+
+### Bug Fixes
+
+* ci ([2ff46fd](https://github.com/xiaomaer/MeUI/commit/2ff46fd42002f733be27e216d801a15399c9e758))
+
+
+
+
+
 ## [1.0.9](https://github.com/xiaomaer/MeUI/compare/@xiaomaer/checkbox@1.0.8...@xiaomaer/checkbox@1.0.9) (2020-03-23)
 
 

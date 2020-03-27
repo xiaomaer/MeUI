@@ -1,6 +1,6 @@
 {
   "name": "xm-meui",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "react组件库所有组件打成一个包",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -30,8 +30,8 @@
     "url": "https://github.com/xiaomaer/MeUI/issues"
   },
   "dependencies": {
-    "@xiaomaer/checkbox": "^1.0.9",
-    "@xiaomaer/demo": "^1.0.8"
+    "@xiaomaer/checkbox": "^1.0.10",
+    "@xiaomaer/demo": "^1.0.9"
   },
   "gitHead": "393122201fa761f5850688a2cbff8b66b0dac864"
 }
