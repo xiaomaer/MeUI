@@ -52,7 +52,7 @@
     "lerna": "^3.16.4",
     "lint-staged": "^8.2.1",
     "prettier": "^1.19.1",
-    "stylelint": "^10.0.1"
+    "stylelint": "^15.10.1"
   },
   "dependencies": {
     "@babel/runtime": "^7.8.7"
